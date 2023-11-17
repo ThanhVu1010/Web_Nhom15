@@ -133,7 +133,7 @@ $(document).ready(function(){
     $('#dangky').click(function(event){
         event.preventDefault()
         if (validateName() && validatePhone() && validateEmail() && validateDiachi() && validatePassword()) {
-            window.location = '../html/signin.html';
+            window.location = '../signin.html';
         }
     })
 })

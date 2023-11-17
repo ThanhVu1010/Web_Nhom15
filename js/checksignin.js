@@ -56,7 +56,7 @@ $(document).ready(function(){
     $('.form__submit__signin').click(function(event){
         event.preventDefault()
         if (validateEmail() && validatePassword()) {
-            window.location = '../html/index.html';
+            window.location = 'index.html';
         }
     })
     
