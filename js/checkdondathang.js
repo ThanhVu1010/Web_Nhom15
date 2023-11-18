@@ -23,7 +23,7 @@ $(document).ready(function() {
         tb.text("");
     }
 
-    // kiểM tra tên
+    // kiểm tra tên
     var txtTen = $('#txtTen');
     var tbTen = $('#tbTen');
     var regexTen = /^[A-Z]{1}[a-z]{1,10}$/;
@@ -34,7 +34,7 @@ $(document).ready(function() {
     txtTen.on('input', boKiemTraTen(txtTen, tbTen));
 
 
-    // kiểM tra họ
+    // kiểm tra họ
     var txtHo = $('#txtHo');
     var tbHo = $('#tbHo');
     var errorHo = 'Ho Khong Hop le';
